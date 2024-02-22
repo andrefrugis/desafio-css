@@ -36,8 +36,21 @@ body {
 }
 
 .logo{
-  width: 50px;
+  width: 80px;
   height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 2px;
+  margin-right: 10px;
+}
+
+.subtitle{
+  align-self: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
 }
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
