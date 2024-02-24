@@ -71,11 +71,13 @@ body {
 }
 
 .form-card-title{
+  font-family: 'Roboto', sans-serif;
   border-width: 0;
   margin-bottom: 5px;
 }
 
 .autoresize{
+  font-family: 'Roboto', sans-serif;
   border-width: 0;
 }
 
@@ -102,14 +104,32 @@ body {
   height: 100px;
   width: 200px;
   margin: 10px;
-  border-radius: 3px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.21);
   padding: 1rem;
 }
 
-.card-title{
+/* .card-title{
+  margin-top: 1px;
   font-weight: bold;
   width: 100%;
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 1.2rem;
+} */
+
+.card-title {
+  margin-top: -3; /* Remover qualquer margem superior padrão */
+  align-self: flex-start; /* Alinhar o título ao topo */
+  font-weight: bold;
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.card-content{
+  margin-top: 20px;
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 1rem;
 }
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
