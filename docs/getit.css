@@ -74,6 +74,8 @@ body {
   font-family: 'Roboto', sans-serif;
   border-width: 0;
   margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .autoresize{
@@ -87,6 +89,7 @@ body {
   border-width: 0;
   border-radius: 2px;
   box-shadow: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .card-container{
@@ -109,16 +112,8 @@ body {
   padding: 1rem;
 }
 
-/* .card-title{
-  margin-top: 1px;
-  font-weight: bold;
-  width: 100%;
-  font-family: 'Permanent Marker', sans-serif;
-  font-size: 1.2rem;
-} */
-
 .card-title {
-  margin-top: -3; /* Remover qualquer margem superior padrão */
+  margin-top: -3px; /* Remover qualquer margem superior padrão */
   align-self: flex-start; /* Alinhar o título ao topo */
   font-weight: bold;
   font-family: 'Permanent Marker', sans-serif;
